@@ -1,9 +1,10 @@
 var order=prompt("what do you want tea coffee?");
 var numberofcups=0;
 
-if (order =='tea'||'coffee' )
+/*if (order =='tea'||'coffee' )
 
-{
+*/
+
 if (order=='tea')
 {
  numberofcups=prompt ("how many cups do you want ?");
@@ -29,8 +30,9 @@ if (order=='tea')
     document.write(coffeeCUP);
     }
   }
-}
-else
+
+/*else
 {
     order=prompt("please ,do you want tea or cofee THIS IF FOR FREE :)");
 }
+*/
