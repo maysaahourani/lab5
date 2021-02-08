@@ -1,9 +1,10 @@
 var order=prompt("what do you want tea coffee?");
 var numberofcups=0;
+while (order!=='tea'&&order!=='coffee')
+{
+     order=prompt("plaese order coffee or tea its for FREE :) ");
 
-/*if (order =='tea'||'coffee' )
-
-*/
+}
 
 if (order=='tea')
 {
@@ -17,22 +18,16 @@ if (order=='tea')
     document.write(TEACUP);
    }
  } 
- else
 
+ if (order=='coffee')
   {
-    
     numberofcups=prompt ("how many cups do you want ?");
-    alert("5 mintues and you will have you coffee :)");
-  
-    for (pre=0; pre<numberofcups; pre++)
+    alert("5 mintues and you will have you coffee :)");  
+    var pre;
+    for(pre=0; pre<numberofcups; pre++)
     {
     var coffeeCUP = '<img src = "gettyimages-500740897.jpg"/>';
     document.write(coffeeCUP);
     }
-  }
+  }   
 
-/*else
-{
-    order=prompt("please ,do you want tea or cofee THIS IF FOR FREE :)");
-}
-*/
